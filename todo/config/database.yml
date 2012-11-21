@@ -1,0 +1,14 @@
+development: &defaults
+  adapter: postgresql
+  database: todo_dev
+  username: todo
+  password: todo
+  host: 127.0.0.1
+
+test:
+  <<: *defaults
+  database: todo_test
+
+production:
+  <<: *defaults
+  database: todo
