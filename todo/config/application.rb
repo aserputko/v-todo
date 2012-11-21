@@ -57,8 +57,7 @@ module Todo
     config.assets.version = '1.0'
 
     config.generators do |g|
-      g.template_engine  :erubis
-      g.fixture_replacement :factory_girl, :dir => "spec/factories"
+        g.fixture_replacement :factory_girl, :dir => "spec/factories"
     end
   end
 end
