@@ -46,6 +46,9 @@ GEM
       multi_json (~> 1.0)
     factory_girl (4.1.0)
       activesupport (>= 3.0.0)
+    factory_girl_rails (4.1.0)
+      factory_girl (~> 4.1.0)
+      railties (>= 3.0.0)
     ffi (1.2.0)
     haml (3.1.7)
     hike (1.2.1)
@@ -149,7 +152,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
-  factory_girl
+  factory_girl_rails
   haml
   jquery-rails
   launchy
