@@ -1,0 +1,8 @@
+<div class="container">
+	<div id="projects"></div>
+
+	<div class="input-append">
+  <input class="span2" id="new_project" type="text">
+  <button id="create_project" class="btn btn-success" type="button">Create Project</button>
+</div>
+</div>

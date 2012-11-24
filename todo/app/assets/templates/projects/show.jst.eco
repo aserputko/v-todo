@@ -1,0 +1,8 @@
+<% if !_.isEmpty(@project): %>
+<div class="input-prepend input-appen offset3">
+	<button class="btn icon-calendar" type="button"></button>
+  <input class="span5" id="appendedInputButtons" type="text" value="<%= @project.name %>">
+  <button class="btn icon-pencil" type="button"></button>
+  <button id="destroy_project" class="btn icon-trash" type="button"></button>
+</div>
+<% end %>
