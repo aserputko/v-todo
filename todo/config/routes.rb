@@ -1,5 +1,9 @@
 Todo::Application.routes.draw do
+  get "todo/index"
+
   resources :projects
+  resources :items
+  resources :todo, :only => [:index]
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -4,13 +4,16 @@ gem "rails", "3.2.3"
 gem "haml"
 gem "rails3-generators"
 
-gem 'jquery-rails'
-gem 'therubyracer'
+gem "jquery-rails"
+gem "therubyracer"
+gem "backbone-on-rails"
+gem "less-rails"
+gem "twitter-bootstrap-rails"
 
 group :assets do
-  gem 'sass-rails', "~> 3.2.3"
-#  gem 'coffee-rails', "~> 3.2.3"
-  gem 'uglifier'
+  gem "sass-rails", "~> 3.2.3"
+ gem "coffee-rails", "~> 3.2.1"
+  gem "uglifier"
 end
 
 group :development do
@@ -19,9 +22,9 @@ end
 
 group :test do
   gem "rspec"
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
-  gem 'database_cleaner'
-  gem 'shoulda-matchers'
-  gem 'capybara'
+  gem "rspec-rails"
+  gem "factory_girl_rails"
+  gem "database_cleaner"
+  gem "shoulda-matchers"
+  gem "capybara"
 end
