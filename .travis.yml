@@ -3,7 +3,6 @@ rvm:
   - 1.9.3
 
 script:
-  - "cd todo/"
   - "rspec"
 
 before_script:
