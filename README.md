@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/ASerputko/v-todo.png?branch=master)](https://travis-ci.org/ASerputko/v-todo)
+
 # Introduction
 
 The purpose of the rails cookbook is to help people generate a new rails project
