@@ -8,7 +8,4 @@ script:
 before_script:
   - cd todo/
   - psql -c 'create database todo_test;' -U postgres
-  - pwd
   - bundle instsll
-  - echo 'Let s start'
-
